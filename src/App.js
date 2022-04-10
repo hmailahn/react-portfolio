@@ -7,12 +7,15 @@ import Nav from "./components/Nav";
 // import Project from "./components/Project";
 
 function App() {
+  const [contactSelected, setContactSelected] = useState(false);
+
   return (
    <div>
 <Nav />
 <main>
-<ContactForm></ContactForm>
+
   <About></About>
+  <ContactForm></ContactForm>
   {/* <Project /> */}
 </main>
 {/* <Footer /> */}
