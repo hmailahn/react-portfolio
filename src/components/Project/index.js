@@ -4,7 +4,7 @@ function Project () {
 
 const projects= [
     {
-        image: '',
+        image: '../../assets/',
         title: 'Outfitters',
         url: 'https://outfitters-agent-shields.herokuapp.com/login',
         repository: 'https://github.com/hmailahn/outfitters'

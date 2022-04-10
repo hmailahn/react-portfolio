@@ -4,7 +4,7 @@ import avatar from '../../assets/me.jpg';
 function About () {
     return(
         <section>
-            <h1>About Me</h1>
+            <h1 id="about">About Me</h1>
             <img src={avatar} alt="Heidi"/>
             <div>
                 <p>
