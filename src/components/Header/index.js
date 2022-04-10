@@ -26,7 +26,7 @@ function Header () {
             </a>
         </li>
         <li>
-        <a href='#resume'>
+        <a href='https://docs.google.com/document/d/1RQh1Q6Zeh9Jy1CCmUge-VypI4Z9cV_L1ZQuftpDbCJY/edit'>
             Resume
             </a>
         </li>
