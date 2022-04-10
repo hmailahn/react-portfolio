@@ -7,6 +7,17 @@ function ContactForm() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
     const { name, email, message } = formState;
 
+    function handleChange(e) {
+        setFormState({...formState, [e.target.name]: e.target.value })
+      }
+      
+    
+      function handleSubmit(e) {
+        e.preventDefault();
+        console.log(formState);
+      }
+
+      
     return (
         <section className='contact-me'>
           <h1>Contact me</h1>
@@ -20,18 +31,18 @@ function ContactForm() {
                 <h3>
                     <a href="https://www.linkedin.com/in/heidi-mailahn-15005a136/">LinkedIn</a>
                 </h3>
-          <form id="contact-form">
+                <form id="contact-form" onSubmit={handleSubmit}>
             <div>
               <label htmlFor="name">Name:</label>
-              <input type="text" defaultValue={name} name="name" />
+              <input type="text" defaultValue={name} onChange={handleChange} name="name" />
             </div>
             <div>
               <label htmlFor="email">Email address:</label>
-              <input type="email" defaultValue={email} name="email" />
+              <input type="email" defaultValue={email} name="email" onChange={handleChange} />
             </div>
             <div>
-            <textarea name="message" defaultValue={message} rows="5"  />
-              <textarea name="message" rows="5" />
+            <label htmlFor="message">Message:</label>
+            <textarea name="message" defaultValue={message} onChange={handleChange} rows="5" />
             </div>
             <button type="submit">Submit</button>
           </form>
