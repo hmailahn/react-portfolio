@@ -5,7 +5,7 @@ function About () {
     return(
         <section>
             <h1 id="about">About Me</h1>
-            <img src={avatar} alt="Heidi"/>
+            <img className="avatar" src={avatar} alt="Heidi"/>
             <div>
                 <p>
                     Hi there! I'm Heidi, a full stack developer and wellness specialist. 

@@ -9,21 +9,23 @@ function Header () {
     </a>
     </h1>
 <nav>
-    <ul className="flex-row">
-        <li className="mx-2">
+    <ul>
+        <li>
             <a href='#about'>
             About Me
             </a>
         </li>
-        <li className="mx-2">
+        <li>
+            <a href='#contact'>
            Contact 
+           </a>
         </li>
-        <li className="mx-2">
+        <li>
         <a href='#projects'>
             Projects
             </a>
         </li>
-        <li className="mx-2">
+        <li>
         <a href='#resume'>
             Resume
             </a>
