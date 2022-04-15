@@ -4,7 +4,7 @@ import About from './components/About';
 // import Header from "./components/Header";
 import ContactForm from "./components/Contact";
 import Nav from "./components/Nav";
-// import Project from "./components/Project";
+import Project from "./components/Project";
 
 function App() {
   const [contactSelected, setContactSelected] = useState(false);
@@ -16,7 +16,7 @@ function App() {
 
   <About></About>
   <ContactForm></ContactForm>
-  {/* <Project /> */}
+  <Project />
 </main>
 {/* <Footer /> */}
    </div>
