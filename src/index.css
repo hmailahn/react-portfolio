@@ -101,11 +101,11 @@ code {
     monospace;
 }
 
-.projectTitle{
+/* .projectTitle{
   top: 8px;
   color: lavender;
   text-align: center;
-}
+} */
 .projectItem{
     display:inline-block;
     width: 20%;
