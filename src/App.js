@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import About from './components/About';
 import Footer from "./components/Footer";
-// import Header from "./components/Header";
+import Header from "./components/Header";
 import ContactForm from "./components/Contact";
 import Nav from "./components/Nav";
 import Project from "./components/Project";
 
 function App() {
-  const pages = [ 'about', 'contact', 'projects', 'resume'];
+  const pages = [ 'about', 'contact', 'projects'];
   const [currentPage, setCurrentPage] = useState(pages[2]);
 
   // //method to see current page
@@ -34,7 +34,7 @@ function App() {
 
   return (
    <div>
-<Nav
+<Header
 pages={pages} 
 setCurrentPage={setCurrentPage}
 currentPage={currentPage}
@@ -43,6 +43,7 @@ currentPage={currentPage}
 {currentPage === 'about' && <About />}
 {currentPage === 'contact' && <ContactForm />}
 {currentPage === 'project' && <Project />}
+{/* {currentPage === 'resume' && <Resume />} */}
 
 </main>
 

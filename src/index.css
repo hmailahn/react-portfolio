@@ -30,11 +30,11 @@ header h1 a {
   text-decoration: none;
 }
 
-header nav{
+nav{
   margin: 10px 0 7px 0;
 }
 
-header nav ul {
+nav ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -42,7 +42,7 @@ header nav ul {
 }
 
 
-header nav ul li a {
+ nav ul li a {
   margin: 0 30px;
   font-weight: bold;
   font-size: 1.55vw;
@@ -52,7 +52,7 @@ header nav ul li a {
 
 }
 
-header nav ul li a:hover {
+ nav ul li a:hover {
   background: var(--dark);
   color: var(--bright);
   border-radius: 15px;

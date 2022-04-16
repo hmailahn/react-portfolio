@@ -1,6 +1,14 @@
 import React from 'react'
+import Nav from '../Nav'
 
-function Header () {
+function Header (props) {
+
+const {
+    pages,
+    setCurrentPage,
+    currentPage
+} = props;
+
     return(
         <header>
 <h1>
@@ -8,7 +16,7 @@ function Header () {
     Heidi Mailahn
     </a>
     </h1>
-<nav>
+{/* <nav>
     <ul>
         <li>
             <a href='#about'>
@@ -31,9 +39,14 @@ function Header () {
             </a>
         </li>
     </ul>
-</nav>
+</nav> */}
+<Nav
+        pages={pages}
+        setCurrentPanel={setCurrentPage}
+        currentPanel={currentPage}
+      />
 </header>
     )
 }
 
-export default Header
+export default Header;
