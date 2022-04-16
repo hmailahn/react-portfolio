@@ -1,9 +1,9 @@
-// import React from 'react'
+import React from 'react'
 
-// function Footer () {
-//     return(
+function Footer () {
+    return(
+<footer>Made with ❤️ by Heidi Mailahn</footer>
+    )
+}
 
-//     )
-// }
-
-// export default Footer
+export default Footer

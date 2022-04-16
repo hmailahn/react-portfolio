@@ -43,7 +43,7 @@ function ContactForm() {
       }
 
     return (
-        <section className='contact-me'>
+        <section id="contact" className='contact-me'>
           <h1>Contact me</h1>
           <h3>402-206-9200</h3>
                 <h3>

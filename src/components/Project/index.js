@@ -40,7 +40,7 @@ const [projects]=  useState([
 // const currerntProjects = Project.filter(project => project.projectitem === projectitem);
 
     return(
-        <div>
+        <div id="projects">
         {projects.map((image, i) => (
           <a href={image.link}>
           <img className="projectItem"
