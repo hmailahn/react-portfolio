@@ -34,12 +34,14 @@ nav{
   margin: 10px 0 7px 0;
 }
 
-nav ul {
+nav li {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   list-style: none;
 }
+
+
 
 
  nav ul li a {

@@ -1,56 +1,60 @@
-import React, { useState } from 'react';
-import About from './components/About';
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import ContactForm from "./components/Contact";
-import Nav from "./components/Nav";
-import Project from "./components/Project";
+import React from 'react';
+import PortfolioContainer from './components/PortfolioContainer';
 
-function App() {
-  const pages = [ 'about', 'contact', 'projects'];
-  const [currentPage, setCurrentPage] = useState(pages[2]);
+// import About from './components/About';
+// import Footer from "./components/Footer";
+// import Header from "./components/Header";
+// import ContactForm from "./components/Contact";
+// // import Nav from "./components/Nav";
+// import Project from "./components/Project";
 
-  // //method to see current page
-  // const renderPage = () => {
-  //   if(currentPage === 'About') {
-  //     console.log('about')
-  //     return <About />
+// function App() {
+//   const pages = [ 'about', 'contact', 'projects'];
+//   const [currentPage, setCurrentPage] = useState(pages[2]);
+
+//   // //method to see current page
+//   // const renderPage = () => {
+//   //   if(currentPage === 'About') {
+//   //     console.log('about')
+//   //     return <About />
      
-  //   }
-  //   if(currentPage === 'Project') {
-  //     console.log('project')
-  //     return <Project />
-  //   }
-  //   if(currentPage === 'ContactForm') {
-  //     console.log('form')
-  //     return <ContactForm />
-  //   }
-  //   // if(currentPage === 'Resume') {
-  //   //   return <Resume />
-  //   // }
-  // }
+//   //   }
+//   //   if(currentPage === 'Project') {
+//   //     console.log('project')
+//   //     return <Project />
+//   //   }
+//   //   if(currentPage === 'ContactForm') {
+//   //     console.log('form')
+//   //     return <ContactForm />
+//   //   }
+//   //   // if(currentPage === 'Resume') {
+//   //   //   return <Resume />
+//   //   // }
+//   // }
 
-  // const handlePageChange = (page) => setCurrentPage(page);
+//   // const handlePageChange = (page) => setCurrentPage(page);
 
-  return (
-   <div>
-<Header
-pages={pages} 
-setCurrentPage={setCurrentPage}
-currentPage={currentPage}
-/>
-<main>
-{currentPage === 'about' && <About />}
-{currentPage === 'contact' && <ContactForm />}
-{currentPage === 'project' && <Project />}
-{/* {currentPage === 'resume' && <Resume />} */}
+//   return (
+//    <div>
+// <Header
+// pages={pages} 
+// setCurrentPage={setCurrentPage}
+// currentPage={currentPage}
+// />
+// <main>
+// {currentPage === 'about' && <About />}
+// {currentPage === 'contact' && <ContactForm />}
+// {currentPage === 'project' && <Project />}
+// {/* {currentPage === 'resume' && <Resume />} */}
 
-</main>
+// </main>
 
-{/* {renderPage()} */}
-<Footer />
-   </div>
-  );
-}
+// {/* {renderPage()} */}
+// <Footer />
+//    </div>
+//   );
+// }
+
+const App = () => <PortfolioContainer />;
 
 export default App;
