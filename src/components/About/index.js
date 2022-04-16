@@ -9,7 +9,7 @@ function About () {
             <img className="avatar" src={avatar} alt="Heidi"/>
             <div>
                 <p className="">
-                    Hi there! I'm Heidi, a full stack developer and wellness specialist. 
+                    Hi there! I'm Heidi, a full-stack developer and wellness specialist. 
                 </p>
             </div>
             </div>

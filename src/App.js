@@ -7,37 +7,46 @@ import Nav from "./components/Nav";
 import Project from "./components/Project";
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('About');
+  const pages = [ 'about', 'contact', 'projects', 'resume'];
+  const [currentPage, setCurrentPage] = useState(pages[2]);
 
-  //method to see current page
-  const renderPage = () => {
-    if(currentPage === 'About') {
-      return <About />
-    }
-    if(currentPage === 'Project') {
-      return <Project />
-    }
-    if(currentPage === 'ContactForm') {
-      return <ContactForm />
-    }
-    // if(currentPage === 'Resume') {
-    //   return <Resume />
-    // }
-  }
+  // //method to see current page
+  // const renderPage = () => {
+  //   if(currentPage === 'About') {
+  //     console.log('about')
+  //     return <About />
+     
+  //   }
+  //   if(currentPage === 'Project') {
+  //     console.log('project')
+  //     return <Project />
+  //   }
+  //   if(currentPage === 'ContactForm') {
+  //     console.log('form')
+  //     return <ContactForm />
+  //   }
+  //   // if(currentPage === 'Resume') {
+  //   //   return <Resume />
+  //   // }
+  // }
 
-  const handlePageChange = (page) => setCurrentPage(page);
+  // const handlePageChange = (page) => setCurrentPage(page);
 
   return (
    <div>
-<Nav  currentPage={currentPage} handlePageChange={handlePageChange} />
-{/* <main>
+<Nav
+pages={pages} 
+setCurrentPage={setCurrentPage}
+currentPage={currentPage}
+/>
+<main>
+{currentPage === 'about' && <About />}
+{currentPage === 'contact' && <ContactForm />}
+{currentPage === 'project' && <Project />}
 
-  <About></About>
-  <ContactForm></ContactForm>
-  <Project />
-</main> */}
+</main>
 
-{renderPage()}
+{/* {renderPage()} */}
 <Footer />
    </div>
   );
