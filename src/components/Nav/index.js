@@ -47,22 +47,22 @@ function Nav({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item">
         <a
-          href="#contact"
-          onClick={() => handlePageChange('ContactForm')}
-          // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === 'ContactForm' ? 'nav-link active' : 'nav-link'}
-        >
-          Contact
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
           href="#project"
           onClick={() => handlePageChange('Project')}
           // Check to see if the currentPage is `Project`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === 'Project' ? 'nav-link active' : 'nav-link'}
         >
           Projects
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#contact"
+          onClick={() => handlePageChange('ContactForm')}
+          // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          className={currentPage === 'ContactForm' ? 'nav-link active' : 'nav-link'}
+        >
+          Contact Me
         </a>
       </li>
       <li className="nav-item">

@@ -141,19 +141,6 @@ button {
   justify-content: center;
 }
 
-.contact-me h3 {
-  margin: 20px;
-  text-decoration: underline;
- 
-}
-
-.contact-me a:link {
-  color: var(--secondary-color);
-}
-
-.contact-me a:visited {
-  color: var(--secondary-color);
-}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
