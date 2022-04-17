@@ -32,7 +32,8 @@ import React from 'react'
 // We assign them to their own variable names
 function Nav({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
+    // <nav className="nav">
+    <ul className="nav justify-content-center nav-tabs">
       <li className="nav-item">
         <a
           href="#about"
@@ -75,6 +76,7 @@ function Nav({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
+    // </nav>
   );
 }
 

@@ -30,7 +30,7 @@ header h1 a {
   text-decoration: none;
 }
 
-nav{
+nav {
   margin: 10px 0 7px 0;
 }
 
@@ -92,10 +92,54 @@ body {
     color: var(--dark);
 }
 
+form {
+  width: 40%;
+
+}
+
+input {
+  font-size: 1rem;
+  padding: 0.25rem;
+  border: 1px solid var(--dark);
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+}
+
+input:focus {
+  border: 1px solid var(--secondary);
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
+}
+
+textarea {
+	width: 600px;
+	height: 120px;
+	border: 3px solid #cccccc;
+	padding: 5px;
+}
+
+
+button {
+	background: var(--meduim);
+	border: 0;
+	border-radius: 15px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 30px;
+	padding: 10px 15px;	
+}
+
 /* .contact-me {
   display: flex;
 } */
 
+.contact-me {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 .contact-me h3 {
   margin: 20px;

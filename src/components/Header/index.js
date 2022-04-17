@@ -1,13 +1,13 @@
 import React from 'react'
-import Nav from '../Nav'
+// import Nav from '../Nav'
 
-function Header (props) {
+function Header () {
 
-const {
-    pages,
-    setCurrentPage,
-    currentPage
-} = props;
+// const {
+//     pages,
+//     setCurrentPage,
+//     currentPage
+// } = props;
 
     return(
         <header>
@@ -40,11 +40,11 @@ const {
         </li>
     </ul>
 </nav> */}
-<Nav
+{/* <Nav
         pages={pages}
         setCurrentPanel={setCurrentPage}
         currentPanel={currentPage}
-      />
+      /> */}
 </header>
     )
 }
