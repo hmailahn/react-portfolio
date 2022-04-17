@@ -43,7 +43,7 @@ nav li {
 
 
 
- .nav-tabs {
+ /* .nav-tabs {
   margin: 0 30px;
   font-weight: bold;
   font-size: 1.55vw;
@@ -51,7 +51,7 @@ nav li {
   color: var(--dark);
   padding: 10px 15px;
 
-} 
+}  */
 /* 
  nav ul li a:hover {
   background: var(--dark);
