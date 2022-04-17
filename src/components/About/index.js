@@ -19,7 +19,7 @@ function About () {
             {/* <div className="row justify-content-center">
                 <div className="col-12"> */}
                 <p className="">
-                    Hi there! I'm Heidi, a full-stack developer and wellness specialist. 
+                    Hi there! I'm Heidi, a full-stack developer and wellness specialist living in Minneapolis, MN.
                 </p>
             {/* </div>
             </div> */}
