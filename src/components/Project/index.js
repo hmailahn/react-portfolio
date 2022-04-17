@@ -44,7 +44,7 @@ const [projects]=  useState([
         {projects.map((image, i) => (
             <div  className="container projectItem">
                 <div className="row justify-content-around">
-                    <div class="col-4">
+                    <div className="col-4">
           <a href={image.url}>
               <h3>{image.title}</h3>
               

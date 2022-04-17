@@ -33,18 +33,17 @@ header h1 a {
 nav {
   margin: 10px 0 7px 0;
 }
-
+/* 
 nav li {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   list-style: none;
-}
+} */
 
 
 
-
- nav ul li a {
+ .nav-tabs {
   margin: 0 30px;
   font-weight: bold;
   font-size: 1.55vw;
@@ -52,32 +51,45 @@ nav li {
   color: var(--dark);
   padding: 10px 15px;
 
-}
-
+} 
+/* 
  nav ul li a:hover {
   background: var(--dark);
   color: var(--bright);
   border-radius: 15px;
 
-}
-
+} */
+/* 
 .about {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 
-}
+} */
 
-.about h1 {
+/* .aboutme img{
+  position: center;
+} */
+
+.aboutme h1 {
   width: 100%;
   text-align: center;
-}
+  font-family: 'Noto Sans', sans-serif;
+  color: var(--dark);
 
+} 
+
+.aboutme p {
+  width: 100%;
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+  color: var(--dark);
+}
 .avatar {
     border-radius: 15px;
     width: 200px;
     height: 207px;
-    align-content: center;
+    /* align-content: center; */
 }
 
 body {
@@ -90,6 +102,7 @@ body {
   background: var(--primary);
   font-family: 'Noto Sans', sans-serif;
     color: var(--dark);
+    text-decoration: none;
 }
 
 /* .projectItem {
