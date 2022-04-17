@@ -16,7 +16,7 @@ To view my portfolio, go to https://hmailahn.github.io/react-portfolio. My About
 * Bootstrap
 
 ## Screenshot
-
+![image](https://github.com/hmailahn/react-portfolio/blob/main/src/assets/screenshot.png)
 ## Repository
 https://github.com/hmailahn/react-portfolio
 ## Deployed-Project
