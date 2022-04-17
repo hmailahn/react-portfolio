@@ -92,6 +92,19 @@ body {
     color: var(--dark);
 }
 
+/* .projectItem {
+display: flex;
+flex-wrap: wrap;
+  justify-content: space-evenly;
+} */
+
+/* .projectItem img {
+  width: 200px;
+  height: 200px;
+} */
+
+
+
 form {
   width: 40%;
 
@@ -147,18 +160,6 @@ code {
     monospace;
 }
 
-.projectTitle{
-  top: 8px;
-  
-  text-align: center;
-}
-.projectItem{
-    display:inline-block;
-    width: 20%;
-    height: 10%;
-    padding-right: 10px;
-    padding-top: 10px;
-}
 
 footer {
   text-align: center;
@@ -166,7 +167,10 @@ footer {
   position:absolute;
    bottom:0;
    width:100%;
+   
 }
+
+
 
 img{
   width: 100px;

@@ -42,16 +42,49 @@ const [projects]=  useState([
     return(
         <div id="projects">
         {projects.map((image, i) => (
-          <a href={image.link}>
-          <img className="projectItem"
+            <div  className="container projectItem">
+                <div className="row justify-content-around">
+                    <div class="col-4">
+          <a href={image.url}>
+              <h3>{image.title}</h3>
+              
+          <img 
             src={require(`../../assets/${i}.png`)}
             alt={image.title}
             key={image.title}
             href={image.url}
           />
-          <a className='projectTitle' href={image.repository}>{image.title}</a>
+          <a className='projectTitle' href={image.repository}>Repository</a>
       </a>
+</div>
+</div>
+</div>
         ))}
+      
       </div>
       );
+    
+
+//     return (
+// <div id="projects">
+// {projects.map((image, i) => (
+
+// <div class="card" style="width: 18rem;">
+//   <img src={require(`../../assets/${i}.png`)} class="card-img-top" alt={image.title}></img>
+//   <div class="card-body">
+//     <h5 class="card-title">{image.title}</h5>
+//   </div>
+//   <div class="card-body">
+//     <a href={image.url} class="card-link">Project</a>
+//     <a href={image.repository} class="card-link">Repository</a>
+//   </div>
+// </div>
+
+
+// ))}
+// </div>
+
+
+// );
+
     };
