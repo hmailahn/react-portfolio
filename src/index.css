@@ -103,6 +103,9 @@ body {
   font-family: 'Noto Sans', sans-serif;
     color: var(--dark);
     text-decoration: none;
+    min-height: 400px;
+    margin-bottom: 100px;
+    clear: both;
     
 }
 
@@ -178,10 +181,13 @@ code {
 footer {
   text-align: center;
   padding: 20px;
-  position:absolute;
+
    bottom:0;
    width:100%;
    background-color: var(--light);
+   bottom: 0px;
+   width: 100%;
+   height: 100px;
 }
 
 
