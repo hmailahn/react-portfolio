@@ -103,6 +103,7 @@ body {
   font-family: 'Noto Sans', sans-serif;
     color: var(--dark);
     text-decoration: none;
+    
 }
 
 /* .projectItem {
@@ -180,7 +181,7 @@ footer {
   position:absolute;
    bottom:0;
    width:100%;
-   
+   background-color: var(--light);
 }
 
 
@@ -191,7 +192,10 @@ img{
 }
 
 
-
+footer img {
+  width: 50px;
+  height: 50px;
+}
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 

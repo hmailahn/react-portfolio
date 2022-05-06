@@ -1,5 +1,6 @@
 import React from 'react';
 import PortfolioContainer from './components/PortfolioContainer';
+import Footer from './components/Footer'
 
 // import About from './components/About';
 // import Footer from "./components/Footer";
@@ -55,6 +56,20 @@ import PortfolioContainer from './components/PortfolioContainer';
 //   );
 // }
 
-const App = () => <PortfolioContainer />;
+
+function App() {
+    return (
+        <div>
+<PortfolioContainer />
+  <Footer />
+  </div>
+    )
+};
+
+// const App = () => 
+// return (
+
+// )
+// ;
 
 export default App;

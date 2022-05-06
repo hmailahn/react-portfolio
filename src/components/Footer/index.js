@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer () {
     return(
-<footer className="fixed-bottom">
+<footer style={{position:"fixed",bottom:"0"}}>
     <div>
     <a href="https://github.com/hmailahn">
         <img

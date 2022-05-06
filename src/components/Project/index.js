@@ -5,6 +5,11 @@ export default function Project () {
 
 const [projects]=  useState([
     {
+        title: 'Weekly Witty Writing Prompts',
+        url: 'https://weekly-witty-writing-prompts.herokuapp.com/',
+        repository: 'https://github.com/Nate-Huerd/weekly-witty-writing-prompt'
+    },
+    {
         title: 'Photo Port',
         url: 'https://hmailahn.github.io/photo-port/',
         repository: 'https://github.com/hmailahn/photo-port'
@@ -24,11 +29,7 @@ const [projects]=  useState([
         url: 'https://mighty-journey-90964.herokuapp.com/',
         repository: 'https://github.com/hmailahn/tech-blog'
     },
-    {
-        title: 'Outfitters',
-        url: 'https://outfitters-agent-shields.herokuapp.com/login',
-        repository: 'https://github.com/hmailahn/outfitters'
-    },
+
     {
         title: 'WeatheredVibes',
         url: 'https://sepidehayani.github.io/WeatheredVibes/',
