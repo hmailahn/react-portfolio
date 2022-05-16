@@ -5,19 +5,12 @@ function About () {
     return(
         <section>
             <div className="container aboutme">
-                {/* <div className="row justify-content-center"> */}
-                    {/* <div className="col-12"> */}
+              
             <h1 id="about">About Me</h1>
-            {/* </div>
-            </div> */}
-            {/* <div className="row justify-content-center">
-            <div className="col-12"> */}
+        
             <img className="avatar rounded mx-auto d-block" src={avatar} alt="Heidi"/>
-            {/* </div>
-            </div> */}
-
-            {/* <div className="row justify-content-center">
-                <div className="col-12"> */}
+        
+        
                 <p className="">
                     Hi there! I'm Heidi! I'm a personable and driven full stack web developer with a background in 
                     wellness and a full stack certificate from the University of Minnesota Coding Bootcamp. With my experience and skills 
@@ -27,8 +20,7 @@ function About () {
                     that assist people to make their lives easier. I'm looking to bring attention to detail and technical skills to a company 
                     to grow and become a valuable asset. 
                 </p>
-            {/* </div>
-            </div> */}
+    
             </div>
         </section>
     )

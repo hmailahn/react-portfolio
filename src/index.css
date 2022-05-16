@@ -145,6 +145,20 @@ img{
   height: 100px;
 }
 
+.resume {
+  text-align: center;
+ 
+  text-decoration: none;
+}
+
+.downloadResume {
+  text-decoration: none;
+}
+
+.resume ul {
+  list-style-type: none;
+}
+
 
 footer img {
   width: 50px;
