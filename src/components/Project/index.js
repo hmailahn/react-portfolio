@@ -81,7 +81,7 @@ const [projects] = useState([
 {projects.map((image, i) => (
 
 <div className="card mb-3">
-  <img src={require(`../../assets/${i}.png`)} class="" alt={image.title}></img>
+  <img src={require(`../../assets/${i}.png`)} class="projectImg" alt={image.title}></img>
   <div className="card-body">
     <h5 className="card-title">{image.title}</h5>
   </div>

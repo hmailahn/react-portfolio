@@ -17,7 +17,7 @@ header {
   font-family: 'Noto Sans', sans-serif;
   background-color: var(--light);
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -140,7 +140,7 @@ footer {
 
 
 
-img{
+.projectImg{
   width: 100px;
   height: 100px;
 }
@@ -151,9 +151,14 @@ img{
   text-decoration: none;
 }
 
-.downloadResume {
-  text-decoration: none;
+.resume a {
+  margin: 20px;
 }
+
+.resume a:hover {
+  background-color: var(--light);
+}
+
 
 .resume ul {
   list-style-type: none;

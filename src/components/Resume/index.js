@@ -3,8 +3,8 @@ import React from "react";
 function Resume() {
   return (
     <div className="resume">
-      <a className="resumeDownloadLink" href="./resume.pdf" download>
-        Click here to download my resume
+      <a className="btn resume p-3" href={require('./resume.pdf')} download>
+        Click HERE to download my resume!
       </a>
       <h3>Front-End Proficiencies</h3>
       <ul>
