@@ -11,7 +11,6 @@
 5. [Repository](#Repository)
 6. [Deployed-Project](#Deployed-Project)
 7. [Contact-Me](#Contact-Me)
-   88888888888888888888888888888888888888888/
 
 ## Description
 
