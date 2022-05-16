@@ -33,43 +33,6 @@ header h1 a {
 nav {
   margin: 10px 0 7px 0;
 }
-/* 
-nav li {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  list-style: none;
-} */
-
-
-
- /* .nav-tabs {
-  margin: 0 30px;
-  font-weight: bold;
-  font-size: 1.55vw;
-  text-decoration: none;
-  color: var(--dark);
-  padding: 10px 15px;
-
-}  */
-/* 
- nav ul li a:hover {
-  background: var(--dark);
-  color: var(--bright);
-  border-radius: 15px;
-
-} */
-/* 
-.about {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-
-} */
-
-/* .aboutme img{
-  position: center;
-} */
 
 .aboutme h1 {
   width: 100%;
@@ -108,18 +71,6 @@ body {
     clear: both;
     
 }
-
-/* .projectItem {
-display: flex;
-flex-wrap: wrap;
-  justify-content: space-evenly;
-} */
-
-/* .projectItem img {
-  width: 200px;
-  height: 200px;
-} */
-
 
 
 form {
@@ -161,9 +112,6 @@ button {
 	padding: 10px 15px;	
 }
 
-/* .contact-me {
-  display: flex;
-} */
 
 .contact-me {
   display: flex;
