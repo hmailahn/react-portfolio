@@ -7,7 +7,7 @@ const [projects] = useState([
     {
         title: 'Weekly Witty Writing Prompts',
         url: 'https://weekly-witty-writing-prompts.herokuapp.com/',
-        repository: 'https://github.com/Nate-Huerd/weekly-witty-writing-prompt',
+        repository: 'https://github.com/hmailahn/weekly-witty-writing-prompt',
         description: 'Weekly Witty Writing Prompts is an application where users are presented with a weekly writing prompt and write stories based off that prompt or interact with other user stories.'
     },
     {
@@ -82,7 +82,9 @@ const [projects] = useState([
 {projects.map((image, i) => (
 
 <div className="card port-cards col-auto m-4 " style={{ width: '30rem' }}>
+<a href={image.url}>
   <img src={require(`../../assets/${i}.png`)} className=" port-img " alt={image.title}></img>
+  </a>
   <div className="card-body">
     <h5 className="card-title">{image.title}</h5>
   </div>
