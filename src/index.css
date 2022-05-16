@@ -138,11 +138,16 @@ footer {
    height: 100px;
 }
 
+.port-cards {
+  width: 400px;
+  padding: 0;
+  justify-content: center;
+}
 
-
-.projectImg{
-  width: 100px;
-  height: 100px;
+.port-img {
+  margin: 0;
+  width: 398px;
+  
 }
 
 .resume {

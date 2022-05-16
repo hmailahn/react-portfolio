@@ -77,11 +77,12 @@ const [projects] = useState([
 //================================================================
 
     return (
-<div id="projects">
+        <section className="container-fluid mb-5">
+<div id="projects" className="row justify-content-center">
 {projects.map((image, i) => (
 
-<div className="card mb-3">
-  <img src={require(`../../assets/${i}.png`)} class="projectImg" alt={image.title}></img>
+<div className="card port-cards col-auto m-4 " style={{ width: '30rem' }}>
+  <img src={require(`../../assets/${i}.png`)} className=" port-img " alt={image.title}></img>
   <div className="card-body">
     <h5 className="card-title">{image.title}</h5>
   </div>
@@ -95,6 +96,7 @@ const [projects] = useState([
 
 ))}
 </div>
+</section>
 
 
 );
