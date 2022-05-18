@@ -12,17 +12,14 @@ function About () {
         
         
                 <p className="">
-                    Hi there! I'm Heidi! I've been a Minneapolis native for 5 years. I'm currently a wellness instrutor with a full stack 
-                    certificate from the University of Minnesota Coding Bootcamp. 
-                    
-                    
-                     I'm a personable and driven full stack web developer with a background in 
-                    wellness and a full stack certificate from the University of Minnesota Coding Bootcamp. With my experience and skills 
-                    in Node.js, Express.js, Handlebars, MongoDB, JavaScript, CSS, HTML, and React, I love to develop meaningful server-side 
-                    applications. I'm able to collaborate and work with a team while solving problems in high-stress environments as well 
-                    as independently. I'm an articulate individual who enjoys connecting with people and am passionate about building applications 
-                    that assist people to make their lives easier. I'm looking to bring attention to detail and technical skills to a company 
-                    to grow and become a valuable asset. 
+                    Hi there, I'm Heidi! Minneapolis, MN is where I currently call home with my best friend and two cats! 
+                    I'm a full stack web developer with a background in wellness and a passion for connecting with others. 
+                    I recently received a full stack certification from the University of Minnesota where I had the opportunity 
+                    to learn and enhance my skills on HTML, CSS, JavaScript, the MERN stack, and mySQL. 
+                    I love creating server-side applications that users find easy, helpful, and fun to use. 
+                    I'm a valuable team player and love collaborating with others to find out of the box solutions and ideas. 
+                    I'm self-driven, ambitious, and entergetic about the work I do. 
+                    I'd love to work with you and see how we can turn your passions and projects to life!
                 </p>
     
             </div>
