@@ -12,7 +12,11 @@ function About () {
         
         
                 <p className="">
-                    Hi there! I'm Heidi! I'm a personable and driven full stack web developer with a background in 
+                    Hi there! I'm Heidi! I've been a Minneapolis native for 5 years. I'm currently a wellness instrutor with a full stack 
+                    certificate from the University of Minnesota Coding Bootcamp. 
+                    
+                    
+                     I'm a personable and driven full stack web developer with a background in 
                     wellness and a full stack certificate from the University of Minnesota Coding Bootcamp. With my experience and skills 
                     in Node.js, Express.js, Handlebars, MongoDB, JavaScript, CSS, HTML, and React, I love to develop meaningful server-side 
                     applications. I'm able to collaborate and work with a team while solving problems in high-stress environments as well 
