@@ -152,12 +152,15 @@ footer {
 
 .resume {
   text-align: center;
- 
+  color: var(--dark);
   text-decoration: none;
+  /* margin: 10px 0px 10px 60px; */
+  /* padding: 20px; */
 }
 
 .resume a {
-  margin: 20px;
+  /* margin: 20px; */
+  color: var(--dark);
 }
 
 .resume a:hover {
