@@ -1,40 +1,13 @@
 import React from 'react'
 
-// const Nav = (props) => {
-//     const { pages, setCurrentPage, currentPage } = props;
-  
-//     // useEffect(() => {
-//     //   document.title = upperCase(currentPanel);
-//     // }, [currentPanel]);
-  
-//     return (
-//       <nav>
-//         <ul>
-//           {pages.map((pages) => (
-//             <li key={pages}>
-//               <span
-//                 className={pages === currentPage ? 'navActive' : undefined}
-//                 onClick={() => {
-//                   setCurrentPage(pages);
-//                 }}
-//               >
-//                 {/* {upperCase(panel)} */}
-//               </span>
-//             </li>
-//           ))}
-//         </ul>
-//       </nav>
-//     );
-//   };
-  
+
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function Nav({ currentPage, handlePageChange }) {
   return (
-    // <nav className="nav">
     <ul className="nav justify-content-center nav-tabs">
-      <li className="nav-item">
+      <li className="nav-item nav-text">
         <a
           href="#about"
           onClick={() => handlePageChange('About')}
@@ -76,7 +49,6 @@ function Nav({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
-    // </nav>
   );
 }
 

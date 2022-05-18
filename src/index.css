@@ -22,6 +22,7 @@ header {
 }
 
 
+
 header h1 a {
   font-weight: bold;
   margin: 0;
@@ -30,9 +31,15 @@ header h1 a {
   text-decoration: none;
 }
 
+header h1 a:hover {
+  color: var(--dark);
+}
+
 nav {
   margin: 10px 0 7px 0;
+  
 }
+
 
 .aboutme h1 {
   width: 100%;
@@ -142,6 +149,8 @@ footer {
   width: 400px;
   padding: 0;
   justify-content: center;
+
+  color: var(--dark);
 }
 
 .port-img {
@@ -172,6 +181,9 @@ footer {
   list-style-type: none;
 }
 
+footer {
+  color: var(--dark);
+}
 
 footer img {
   width: 50px;
