@@ -4,7 +4,16 @@
   --light: #B5BAD0;
   --meduim: #7389AE;
   --dark: #416788;
+
 }
+
+/* :root {
+  --primary: #ffd6ff;
+  --bright: #e7c6ff;
+  --light: #bbd0ff;
+  --meduim: #b8c0ff;
+  --dark: #c8b6ff;
+} */
 
 .flex-row {
   display: flex;
@@ -69,7 +78,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
-  background: var(--primary);
+  background-color: var(--primary);
   font-family: 'Noto Sans', sans-serif;
     color: var(--dark);
     text-decoration: none;
